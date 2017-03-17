@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/tangzongzhi/Practice/C/build",
+  "command": "/usr/bin/cc   -g -I/home/tangzongzhi/Practice/C/build -I/home/tangzongzhi/Practice/C    -o CMakeFiles/HelloWorld.dir/HelloWorld/HelloWorld.c.o   -c /home/tangzongzhi/Practice/C/HelloWorld/HelloWorld.c",
+  "file": "/home/tangzongzhi/Practice/C/HelloWorld/HelloWorld.c"
+}
+]

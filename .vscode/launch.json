@@ -1,18 +1,21 @@
 {
     "version": "0.2.0",
     "configurations": [
+
         {
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceRoot}/HelloWorld/HelloWorld",
+            "program": "${workspaceRoot}/HelloWorld/build/test",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceRoot}",
             "environment": [],
             "externalConsole": true,
+            "launchCompleteCommand": "exec-run",
             "linux": {
                 "MIMode": "gdb",
+                "miDebuggerPath": "/usr/bin/gdb",
                 "setupCommands": [
                     {
                         "description": "Enable pretty-printing for gdb",
@@ -39,7 +42,7 @@
             "name": "C++ Attach",
             "type": "cppdbg",
             "request": "attach",
-            "program": "${workspaceRoot}/HelloWorld/HelloWorld",
+            "program": "${workspaceRoot}/HelloWorld/build/test",
             "processId": "${command.pickProcess}",
             "linux": {
                 "MIMode": "gdb",
