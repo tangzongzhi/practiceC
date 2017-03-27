@@ -10,5 +10,5 @@ INCLUDE_DIRECTORIES(
   ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(HelloWorld ${SOURCE})
+add_executable(test ${SOURCE})
 

@@ -102,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named HelloWorld
+# Target rules for targets named test
 
 # Build rule for target.
-HelloWorld: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 HelloWorld
-.PHONY : HelloWorld
+test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 test
+.PHONY : test
 
 # fast build rule for target.
-HelloWorld/fast:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
-.PHONY : HelloWorld/fast
+test/fast:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
+.PHONY : test/fast
 
 HelloWorld/HelloWorld.o: HelloWorld/HelloWorld.c.o
 .PHONY : HelloWorld/HelloWorld.o
 
 # target to build an object file
 HelloWorld/HelloWorld.c.o:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/HelloWorld/HelloWorld.c.o
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/HelloWorld/HelloWorld.c.o
 .PHONY : HelloWorld/HelloWorld.c.o
 
 HelloWorld/HelloWorld.i: HelloWorld/HelloWorld.c.i
@@ -127,7 +127,7 @@ HelloWorld/HelloWorld.i: HelloWorld/HelloWorld.c.i
 
 # target to preprocess a source file
 HelloWorld/HelloWorld.c.i:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/HelloWorld/HelloWorld.c.i
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/HelloWorld/HelloWorld.c.i
 .PHONY : HelloWorld/HelloWorld.c.i
 
 HelloWorld/HelloWorld.s: HelloWorld/HelloWorld.c.s
@@ -135,7 +135,7 @@ HelloWorld/HelloWorld.s: HelloWorld/HelloWorld.c.s
 
 # target to generate assembly for a file
 HelloWorld/HelloWorld.c.s:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/HelloWorld/HelloWorld.c.s
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/HelloWorld/HelloWorld.c.s
 .PHONY : HelloWorld/HelloWorld.c.s
 
 # Help Target
@@ -144,9 +144,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... HelloWorld"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... test"
 	@echo "... HelloWorld/HelloWorld.o"
 	@echo "... HelloWorld/HelloWorld.i"
 	@echo "... HelloWorld/HelloWorld.s"

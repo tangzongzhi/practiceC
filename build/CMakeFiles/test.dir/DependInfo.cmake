@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_C
-  "/home/tangzongzhi/Practice/C/HelloWorld/HelloWorld.c" "/home/tangzongzhi/Practice/C/build/CMakeFiles/HelloWorld.dir/HelloWorld/HelloWorld.c.o"
+  "/home/tangzongzhi/Practice/C/HelloWorld/HelloWorld.c" "/home/tangzongzhi/Practice/C/build/CMakeFiles/test.dir/HelloWorld/HelloWorld.c.o"
   )
 SET(CMAKE_C_COMPILER_ID "GNU")
 

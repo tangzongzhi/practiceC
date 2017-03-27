@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/tangzongzhi/Practice/C
 CMAKE_BINARY_DIR = /home/tangzongzhi/Practice/C/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/HelloWorld.dir
+# Target rules for target CMakeFiles/test.dir
 
 # All Build rule for target.
-CMakeFiles/HelloWorld.dir/all:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/depend
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/build
+CMakeFiles/test.dir/all:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/tangzongzhi/Practice/C/build/CMakeFiles  1
-	@echo "Built target HelloWorld"
-.PHONY : CMakeFiles/HelloWorld.dir/all
+	@echo "Built target test"
+.PHONY : CMakeFiles/test.dir/all
 
 # Include target in all.
-all: CMakeFiles/HelloWorld.dir/all
+all: CMakeFiles/test.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/HelloWorld.dir/rule: cmake_check_build_system
+CMakeFiles/test.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangzongzhi/Practice/C/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HelloWorld.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/test.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/tangzongzhi/Practice/C/build/CMakeFiles 0
-.PHONY : CMakeFiles/HelloWorld.dir/rule
+.PHONY : CMakeFiles/test.dir/rule
 
 # Convenience name for target.
-HelloWorld: CMakeFiles/HelloWorld.dir/rule
-.PHONY : HelloWorld
+test: CMakeFiles/test.dir/rule
+.PHONY : test
 
 # clean rule for target.
-CMakeFiles/HelloWorld.dir/clean:
-	$(MAKE) -f CMakeFiles/HelloWorld.dir/build.make CMakeFiles/HelloWorld.dir/clean
-.PHONY : CMakeFiles/HelloWorld.dir/clean
+CMakeFiles/test.dir/clean:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/clean
+.PHONY : CMakeFiles/test.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/HelloWorld.dir/clean
+clean: CMakeFiles/test.dir/clean
 .PHONY : clean
 
 #=============================================================================
