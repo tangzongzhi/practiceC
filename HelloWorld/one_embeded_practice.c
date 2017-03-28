@@ -19,5 +19,6 @@ void run_one_embeded_practice(){
     // counter++;
     // goto gotoLoop;
     // while(1){printf("Dead Loop %ld times.\n",counter);counter++;}
-    for(;;){printf("Dead Loop %ld times.\n",counter);counter++;}
+    // for(;;){printf("Dead Loop %ld times.\n",counter);counter++;}
+    //5. 用变量a给出下面的定义
 }
