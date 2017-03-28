@@ -1,7 +1,7 @@
 [
 {
-  "directory": "/home/tangzongzhi/Practice/C/build",
-  "command": "/usr/bin/cc   -g -I/home/tangzongzhi/Practice/C/build -I/home/tangzongzhi/Practice/C    -o CMakeFiles/test.dir/HelloWorld/HelloWorld.c.o   -c /home/tangzongzhi/Practice/C/HelloWorld/HelloWorld.c",
-  "file": "/home/tangzongzhi/Practice/C/HelloWorld/HelloWorld.c"
+  "directory": "/home/tangzongzhi/PracticeProgramming/practiceC/build",
+  "command": "/usr/bin/cc   -I/home/tangzongzhi/PracticeProgramming/practiceC/build -I/home/tangzongzhi/PracticeProgramming/practiceC  -g   -o CMakeFiles/test.dir/HelloWorld/HelloWorld.c.o   -c /home/tangzongzhi/PracticeProgramming/practiceC/HelloWorld/HelloWorld.c",
+  "file": "/home/tangzongzhi/PracticeProgramming/practiceC/HelloWorld/HelloWorld.c"
 }
 ]
