@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
-project(HelloWorld)
+project(PracticeC)
 
 SET(SOURCE
-  HelloWorld/HelloWorld.c
+  src/main.c
 )
 
 INCLUDE_DIRECTORIES(
@@ -10,5 +10,5 @@ INCLUDE_DIRECTORIES(
   ${CMAKE_CURRENT_SOURCE_DIR}
 )
 
-add_executable(test ${SOURCE})
+add_executable(PracticeC ${SOURCE})
 
